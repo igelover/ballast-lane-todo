@@ -1,2 +1,2 @@
 # ballast-lane-todo
-Ballas Lane Technical Interview Exercise
+Ballast Lane Technical Interview Exercise
