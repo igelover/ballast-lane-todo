@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  tododb:
+    image: mongo
+
+  ballast.todo.api:
+    image: ${DOCKER_REGISTRY-}ballasttodoapi
+    build:
+      context: .
+      dockerfile: Ballast.Todo.API/Dockerfile
+
+volumes:
+  mongo_data:
