@@ -1,6 +1,6 @@
-﻿using Microsoft.OpenApi.Models;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
+using Microsoft.OpenApi.Models;
 
 namespace Ballast.Todo.API
 {

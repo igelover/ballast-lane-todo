@@ -1,19 +1,19 @@
-﻿using System.Security.Claims;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Security.Claims;
 using System.Text;
 using Ballast.Todo.Application.Contracts.Identity;
+using Ballast.Todo.Application.Contracts.Persistence;
 using Ballast.Todo.Domain;
 using Ballast.Todo.Infrastructure.Database;
+using Ballast.Todo.Infrastructure.Database.Repositories;
 using Ballast.Todo.Infrastructure.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using MongoDB.Bson.Serialization.IdGenerators;
 using MongoDB.Bson.Serialization;
-using Ballast.Todo.Infrastructure.Database.Repositories;
-using Ballast.Todo.Application.Contracts.Persistence;
-using System.Diagnostics.CodeAnalysis;
+using MongoDB.Bson.Serialization.IdGenerators;
 
 namespace Ballast.Todo.Infrastructure
 {

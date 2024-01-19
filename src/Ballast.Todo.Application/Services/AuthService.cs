@@ -25,7 +25,7 @@ namespace Ballast.Todo.Application.Services
             _sessionRepository = sessionRepository;
             _jwtService = jwtService;
             _logger = logger;
-        }   
+        }
 
         public async Task<string> LoginAsync(LoginRequest request)
         {

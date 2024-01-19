@@ -96,7 +96,7 @@ namespace Ballast.Todo.Application.Services
             {
                 throw new ValidationException(result.Errors);
             }
-            if(!await _repository.UpdateItemAsync(userId, item))
+            if (!await _repository.UpdateItemAsync(userId, item))
             {
                 throw new NotFoundException("item", id);
             };

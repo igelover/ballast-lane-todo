@@ -37,7 +37,8 @@ namespace Ballast.Todo.Application.Services
             }
 
             var duplicate = await _repository.GetByEmailAsync(user.Email);
-            if (duplicate != null) {
+            if (duplicate != null)
+            {
                 throw new ConflictException("User email already registered!");
             }
 
