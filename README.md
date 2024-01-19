@@ -123,6 +123,6 @@ For a quick manual test there's a [Postman collection](./docs/Ballast%20Lane%20-
 
 In order to ensure code quality there's a good amount of unit tests that can be included in [pipeline configuration for Pull Requests](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/codecoverage-for-pullrequests?view=azure-devops).
 
-Please refer to the detailed [code coverage report](./docs/coverageReport/index.html).
+Please refer to the detailed [code coverage report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/igelover/ballast-lane-todo/main/docs/coverageReport/index.html).
 
 ![Coverage](./docs/img/coverage.jpg "Code Coverage Report")
