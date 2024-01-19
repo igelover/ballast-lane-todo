@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1" branch-rate="0.8666666666666667" lines-covered="330" lines-valid="330" branches-covered="52" branches-valid="60" complexity="114" version="0" timestamp="1705615586">
+  <sources>
+    <source>D:\Source\personal\ballast-lane-todo\src\</source>
+  </sources>
+  <packages>
+    <package name="Ballast.Todo.API" line-rate="1" branch-rate="1" complexity="11">
+      <classes>
+        <class name="Ballast.Todo.API.Controllers.AuthController" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.API\Controllers\AuthController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(Ballast.Todo.Application.Contracts.Services.IAuthService,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.API.Controllers.AuthController&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="LoginAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.API.Controllers.RegistrationController" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.API\Controllers\RegistrationController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(Ballast.Todo.Application.Contracts.Services.IUserService,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.API.Controllers.RegistrationController&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RegisterUserAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.API.Controllers.TodoController" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.API\Controllers\TodoController.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name=".ctor" signature="(Ballast.Todo.Application.Contracts.Services.ITodoService,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.API.Controllers.TodoController&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="6" branch="false" />
+                <line number="23" hits="6" branch="false" />
+                <line number="24" hits="6" branch="false" />
+                <line number="25" hits="6" branch="false" />
+                <line number="26" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="114" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="117" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllItemsAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MarkItemDoneAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="132" hits="1" branch="false" />
+                <line number="133" hits="1" branch="false" />
+                <line number="134" hits="1" branch="false" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="6" branch="false" />
+            <line number="23" hits="6" branch="false" />
+            <line number="24" hits="6" branch="false" />
+            <line number="25" hits="6" branch="false" />
+            <line number="26" hits="6" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="117" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="133" hits="1" branch="false" />
+            <line number="134" hits="1" branch="false" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Ballast.Todo.Application" line-rate="1" branch-rate="1" complexity="48">
+      <classes>
+        <class name="Ballast.Todo.Application.Services.AuthService" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Application\Services\AuthService.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name=".ctor" signature="(FluentValidation.IValidator`1&lt;Ballast.Todo.Domain.Models.LoginRequest&gt;,Ballast.Todo.Application.Contracts.Persistence.IUserRepository,Ballast.Todo.Application.Contracts.Persistence.ISessionRepository,Ballast.Todo.Application.Contracts.Identity.IJwtService,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.Application.Services.AuthService&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="3" branch="false" />
+                <line number="23" hits="3" branch="false" />
+                <line number="24" hits="3" branch="false" />
+                <line number="25" hits="3" branch="false" />
+                <line number="26" hits="3" branch="false" />
+                <line number="27" hits="3" branch="false" />
+                <line number="28" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="LoginAsync" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="31" hits="3" branch="false" />
+                <line number="32" hits="3" branch="false" />
+                <line number="33" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="38" hits="2" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="23" hits="3" branch="false" />
+            <line number="24" hits="3" branch="false" />
+            <line number="25" hits="3" branch="false" />
+            <line number="26" hits="3" branch="false" />
+            <line number="27" hits="3" branch="false" />
+            <line number="28" hits="3" branch="false" />
+            <line number="31" hits="3" branch="false" />
+            <line number="32" hits="3" branch="false" />
+            <line number="33" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="38" hits="2" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Application.Services.TodoService" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Application\Services\TodoService.cs" line-rate="1" branch-rate="1" complexity="37">
+          <methods>
+            <method name=".ctor" signature="(FluentValidation.IValidator`1&lt;Ballast.Todo.Domain.Entities.TodoItem&gt;,Ballast.Todo.Application.Contracts.Persistence.ITodoRepository,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.Application.Services.TodoService&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="47" branch="false" />
+                <line number="19" hits="47" branch="false" />
+                <line number="20" hits="47" branch="false" />
+                <line number="21" hits="47" branch="false" />
+                <line number="22" hits="47" branch="false" />
+                <line number="23" hits="47" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="26" hits="3" branch="false" />
+                <line number="27" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="32" hits="2" branch="false" />
+                <line number="33" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
+                <line number="35" hits="2" branch="false" />
+                <line number="36" hits="2" branch="false" />
+                <line number="38" hits="2" branch="false" />
+                <line number="39" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="108" hits="8" branch="false" />
+                <line number="109" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="110" hits="4" branch="false" />
+                <line number="111" hits="4" branch="false" />
+                <line number="113" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="114" hits="2" branch="false" />
+                <line number="115" hits="2" branch="false" />
+                <line number="117" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="118" hits="1" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="122" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllItemsAsync" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="65" hits="3" branch="false" />
+                <line number="66" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="67" hits="2" branch="false" />
+                <line number="68" hits="2" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="49" hits="8" branch="false" />
+                <line number="50" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="51" hits="4" branch="false" />
+                <line number="52" hits="4" branch="false" />
+                <line number="54" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="55" hits="2" branch="false" />
+                <line number="56" hits="2" branch="false" />
+                <line number="59" hits="2" branch="false" />
+                <line number="60" hits="2" branch="false" />
+                <line number="61" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="62" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MarkItemDoneAsync" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="125" hits="8" branch="false" />
+                <line number="126" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="127" hits="4" branch="false" />
+                <line number="128" hits="4" branch="false" />
+                <line number="130" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="131" hits="2" branch="false" />
+                <line number="132" hits="2" branch="false" />
+                <line number="134" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="1" branch="false" />
+                <line number="137" hits="1" branch="false" />
+                <line number="138" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="12">
+              <lines>
+                <line number="76" hits="17" branch="false" />
+                <line number="77" hits="17" branch="true" condition-coverage="100% (2/2)" />
+                <line number="78" hits="8" branch="false" />
+                <line number="79" hits="8" branch="false" />
+                <line number="81" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="82" hits="4" branch="false" />
+                <line number="83" hits="4" branch="false" />
+                <line number="85" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="86" hits="1" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="89" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="94" hits="3" branch="false" />
+                <line number="95" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="99" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="47" branch="false" />
+            <line number="19" hits="47" branch="false" />
+            <line number="20" hits="47" branch="false" />
+            <line number="21" hits="47" branch="false" />
+            <line number="22" hits="47" branch="false" />
+            <line number="23" hits="47" branch="false" />
+            <line number="26" hits="3" branch="false" />
+            <line number="27" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="2" branch="false" />
+            <line number="33" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
+            <line number="35" hits="2" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="38" hits="2" branch="false" />
+            <line number="39" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="49" hits="8" branch="false" />
+            <line number="50" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="51" hits="4" branch="false" />
+            <line number="52" hits="4" branch="false" />
+            <line number="54" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="55" hits="2" branch="false" />
+            <line number="56" hits="2" branch="false" />
+            <line number="59" hits="2" branch="false" />
+            <line number="60" hits="2" branch="false" />
+            <line number="61" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="62" hits="1" branch="false" />
+            <line number="65" hits="3" branch="false" />
+            <line number="66" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="67" hits="2" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="76" hits="17" branch="false" />
+            <line number="77" hits="17" branch="true" condition-coverage="100% (2/2)" />
+            <line number="78" hits="8" branch="false" />
+            <line number="79" hits="8" branch="false" />
+            <line number="81" hits="9" branch="true" condition-coverage="100% (2/2)" />
+            <line number="82" hits="4" branch="false" />
+            <line number="83" hits="4" branch="false" />
+            <line number="85" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="86" hits="1" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="89" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="94" hits="3" branch="false" />
+            <line number="95" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="99" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="108" hits="8" branch="false" />
+            <line number="109" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="110" hits="4" branch="false" />
+            <line number="111" hits="4" branch="false" />
+            <line number="113" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="114" hits="2" branch="false" />
+            <line number="115" hits="2" branch="false" />
+            <line number="117" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="118" hits="1" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="122" hits="1" branch="false" />
+            <line number="125" hits="8" branch="false" />
+            <line number="126" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="127" hits="4" branch="false" />
+            <line number="128" hits="4" branch="false" />
+            <line number="130" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="131" hits="2" branch="false" />
+            <line number="132" hits="2" branch="false" />
+            <line number="134" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+            <line number="137" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Application.Services.UserService" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Application\Services\UserService.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name=".ctor" signature="(FluentValidation.IValidator`1&lt;Ballast.Todo.Domain.Entities.User&gt;,Ballast.Todo.Application.Contracts.Persistence.IUserRepository,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.Application.Services.UserService&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="false" />
+                <line number="19" hits="3" branch="false" />
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="3" branch="false" />
+                <line number="23" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="RegisterUserAsync" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="26" hits="3" branch="false" />
+                <line number="27" hits="3" branch="false" />
+                <line number="28" hits="3" branch="false" />
+                <line number="29" hits="3" branch="false" />
+                <line number="30" hits="3" branch="false" />
+                <line number="31" hits="3" branch="false" />
+                <line number="33" hits="3" branch="false" />
+                <line number="34" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="39" hits="2" branch="false" />
+                <line number="40" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="3" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="23" hits="3" branch="false" />
+            <line number="26" hits="3" branch="false" />
+            <line number="27" hits="3" branch="false" />
+            <line number="28" hits="3" branch="false" />
+            <line number="29" hits="3" branch="false" />
+            <line number="30" hits="3" branch="false" />
+            <line number="31" hits="3" branch="false" />
+            <line number="33" hits="3" branch="false" />
+            <line number="34" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="40" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Application.Validators.LoginRequestValidator" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Application\Validators\LoginRequestValidator.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="false" />
+                <line number="9" hits="3" branch="false" />
+                <line number="10" hits="3" branch="false" />
+                <line number="11" hits="3" branch="false" />
+                <line number="12" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="false" />
+            <line number="9" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Application.Validators.TodoItemValidator" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Application\Validators\TodoItemValidator.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="47" branch="false" />
+                <line number="9" hits="47" branch="false" />
+                <line number="10" hits="47" branch="false" />
+                <line number="11" hits="47" branch="false" />
+                <line number="12" hits="47" branch="false" />
+                <line number="13" hits="47" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="47" branch="false" />
+            <line number="9" hits="47" branch="false" />
+            <line number="10" hits="47" branch="false" />
+            <line number="11" hits="47" branch="false" />
+            <line number="12" hits="47" branch="false" />
+            <line number="13" hits="47" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Application.Validators.UserValidator" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Application\Validators\UserValidator.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="false" />
+                <line number="9" hits="3" branch="false" />
+                <line number="10" hits="3" branch="false" />
+                <line number="11" hits="3" branch="false" />
+                <line number="12" hits="3" branch="false" />
+                <line number="13" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="false" />
+            <line number="9" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="13" hits="3" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Ballast.Todo.Domain" line-rate="1" branch-rate="1" complexity="28">
+      <classes>
+        <class name="Ballast.Todo.Domain.DTO.TodoItemDTO" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\DTO\TodoItemDTO.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="7" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="7" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Entities.Session" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Entities\Session.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UserId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_CreateDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TokenId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Active" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4" branch="false" />
+            <line number="9" hits="5" branch="false" />
+            <line number="10" hits="4" branch="false" />
+            <line number="11" hits="4" branch="false" />
+            <line number="12" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Entities.TodoItem" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Entities\TodoItem.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="55" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="48" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="30" branch="false" />
+              </lines>
+            </method>
+            <method name="get_UserId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="54" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="55" branch="false" />
+            <line number="11" hits="48" branch="false" />
+            <line number="13" hits="30" branch="false" />
+            <line number="15" hits="54" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Entities.User" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Entities\User.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="15" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="29" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="18" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="15" branch="false" />
+            <line number="10" hits="29" branch="false" />
+            <line number="12" hits="18" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Exceptions.BadRequestException" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Exceptions\BadRequestException.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Errors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="70" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="35" branch="false" />
+                <line number="17" hits="35" branch="false" />
+                <line number="18" hits="35" branch="false" />
+                <line number="19" hits="35" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="35" branch="false" />
+                <line number="27" hits="35" branch="false" />
+                <line number="28" hits="35" branch="false" />
+                <line number="29" hits="35" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="70" branch="false" />
+            <line number="16" hits="35" branch="false" />
+            <line number="17" hits="35" branch="false" />
+            <line number="18" hits="35" branch="false" />
+            <line number="19" hits="35" branch="false" />
+            <line number="26" hits="35" branch="false" />
+            <line number="27" hits="35" branch="false" />
+            <line number="28" hits="35" branch="false" />
+            <line number="29" hits="35" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Exceptions.ConflictException" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Exceptions\ConflictException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Exceptions.NotFoundException" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Exceptions\NotFoundException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="false" />
+                <line number="14" hits="4" branch="false" />
+                <line number="15" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="4" branch="false" />
+            <line number="14" hits="4" branch="false" />
+            <line number="15" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Exceptions.UnauthorizedException" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Exceptions\UnauthorizedException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="false" />
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Exceptions.ValidationErrorDetail" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Exceptions\BadRequestException.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Key" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="35" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Messages" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="70" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="40" hits="35" branch="false" />
+            <line number="45" hits="70" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Exceptions.ValidationException" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Exceptions\ValidationException.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Errors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="4" branch="false" />
+                <line number="10" hits="4" branch="false" />
+                <line number="11" hits="4" branch="false" />
+                <line number="12" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Collections.Generic.IEnumerable`1&lt;FluentValidation.Results.ValidationFailure&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="4" branch="false" />
+                <line number="15" hits="4" branch="false" />
+                <line number="16" hits="14" branch="false" />
+                <line number="17" hits="14" branch="false" />
+                <line number="18" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="4" branch="false" />
+            <line number="9" hits="4" branch="false" />
+            <line number="10" hits="4" branch="false" />
+            <line number="11" hits="4" branch="false" />
+            <line number="12" hits="4" branch="false" />
+            <line number="14" hits="4" branch="false" />
+            <line number="15" hits="4" branch="false" />
+            <line number="16" hits="14" branch="false" />
+            <line number="17" hits="14" branch="false" />
+            <line number="18" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Models.LoginRequest" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Models\LoginRequest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="8" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="10" branch="false" />
+            <line number="6" hits="8" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Domain.Models.RegistrationRequest" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Domain\Models\RegistrationRequest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="7" branch="false" />
+            <line number="6" hits="6" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Ballast.Todo.Infrastructure" line-rate="1" branch-rate="0.5555555555555556" complexity="27">
+      <classes>
+        <class name="Ballast.Todo.Infrastructure.Database.Repositories.SessionRepository" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Infrastructure\Database\Repositories\SessionRepository.cs" line-rate="1" branch-rate="0.5" complexity="6">
+          <methods>
+            <method name=".ctor" signature="(Ballast.Todo.Infrastructure.Database.IDataContext,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.Infrastructure.Database.Repositories.SessionRepository&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="false" />
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="false" />
+                <line number="16" hits="2" branch="false" />
+                <line number="17" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateSessionAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteSessionsAsync" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="16" hits="2" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="25" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Infrastructure.Database.Repositories.TodoRepository" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Infrastructure\Database\Repositories\TodoRepository.cs" line-rate="1" branch-rate="0.5" complexity="16">
+          <methods>
+            <method name=".ctor" signature="(Ballast.Todo.Infrastructure.Database.IDataContext,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.Infrastructure.Database.Repositories.TodoRepository&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="6" branch="false" />
+                <line number="15" hits="6" branch="false" />
+                <line number="16" hits="6" branch="false" />
+                <line number="17" hits="6" branch="false" />
+                <line number="18" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteItemAsync" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="53" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllItemsAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetItemAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MarkItemDoneAsync" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="62" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateItemAsync" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="45" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="6" branch="false" />
+            <line number="15" hits="6" branch="false" />
+            <line number="16" hits="6" branch="false" />
+            <line number="17" hits="6" branch="false" />
+            <line number="18" hits="6" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="45" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="53" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="62" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Ballast.Todo.Infrastructure.Database.Repositories.UserRepository" filename="D:\Source\personal\ballast-lane-todo\src\Ballast.Todo.Infrastructure\Database\Repositories\UserRepository.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name=".ctor" signature="(Ballast.Todo.Infrastructure.Database.IDataContext,Microsoft.Extensions.Logging.ILogger`1&lt;Ballast.Todo.Infrastructure.Database.Repositories.UserRepository&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="4" branch="false" />
+                <line number="15" hits="4" branch="false" />
+                <line number="16" hits="4" branch="false" />
+                <line number="17" hits="4" branch="false" />
+                <line number="18" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetByEmailAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RegisterUserAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ValidateCredentialsAsync" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="33" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
+                <line number="35" hits="2" branch="false" />
+                <line number="36" hits="2" branch="false" />
+                <line number="37" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="38" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="4" branch="false" />
+            <line number="15" hits="4" branch="false" />
+            <line number="16" hits="4" branch="false" />
+            <line number="17" hits="4" branch="false" />
+            <line number="18" hits="4" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="33" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
+            <line number="35" hits="2" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="37" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="38" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

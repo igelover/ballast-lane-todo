@@ -11,6 +11,7 @@ $~$
 * [Implementation Highlights](#implementation-highlights)
 * [Prerequisites](#prerequisites)
 * [Build and Run](#build-and-run)
+* [Testing](#testing)
 
 $~$
 
@@ -111,3 +112,17 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 ![Docker](./docs/img/docker.jpg "Running from Docker")
 
 Please note that this URL is different than the one we saw when running from Visual Studio, this is the best indicator that we're running inside a container.
+
+## <a name="testing"></a>Testing
+
+### Manual Testing
+
+For a quick manual test there's a [Postman collection](./docs/Ballast%20Lane%20-%20Technical%20Interview%20Exercise.postman_collection.json) that includes all the endpoints in the API.
+
+### Automated Testing
+
+In order to ensure code quality there's a good amount of unit tests that can be included in [pipeline configuration for Pull Requests](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/codecoverage-for-pullrequests?view=azure-devops).
+
+Please refer to the detailed [code coverage report](./docs/coverageReport/index.html).
+
+![Coverage](./docs/img/coverage.jpg "Code Coverage Report")
